@@ -25,7 +25,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-sky-50 to-sky-100">
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[url('/floods.jpg')] bg-cover bg-center bg-no-repeat before:absolute before:inset-0 before:bg-black/40">
         <div className="container mx-auto px-4 z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -34,14 +34,14 @@ const Index = () => {
             className="text-center"
           >
            
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-sky-900 to-sky-700 bg-clip-text text-transparent">
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white">
               La montée des eaux,
               </h1>
-             <h1 className="text-4xl md:text-6xl font-bold text-sky-800"> un problème majeur
+             <h1 className="text-4xl md:text-6xl font-bold text-white"> un problème majeur
             </h1>
             <br> 
             </br>
-            <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+            <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
              Voyez l'effet de l'augmentation du niveau de la mer sur les villes de Shangai, Bangkok et Amsterdam
             </p>
           </motion.div>
@@ -56,7 +56,7 @@ const Index = () => {
           transition={{ duration: 2, repeat: Infinity }}
           className="absolute bottom-8 left-1/2 transform -translate-x-1/2 cursor-pointer"
         >
-          <ArrowDown className="w-6 h-6 text-gray-600" />
+          <ArrowDown className="w-6 h-6 text-white" />
         </motion.div>
       </section>
 
