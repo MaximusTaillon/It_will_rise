@@ -41,6 +41,7 @@ const Index = () => {
               </h1>
              <h1 className="text-4xl md:text-6xl font-bold text-sky-800"> un problème majeur
             </h1>
+            <br></br>
             <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
               Discover how sea level rise is reshaping our coastlines and what it means for our future.
             </p>
