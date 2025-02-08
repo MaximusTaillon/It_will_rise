@@ -25,7 +25,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-sky-50 to-sky-100">
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[url('/lovable-uploads/a409a95d-1ce3-41d0-8a3c-db404660c46e.png')] bg-cover bg-center bg-no-repeat before:absolute before:inset-0 before:bg-black/40">
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[url('/floods.jpg')] bg-cover bg-center bg-no-repeat before:absolute before:inset-0 before:bg-black/40">
         <div className="container mx-auto px-4 z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
