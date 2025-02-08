@@ -102,7 +102,7 @@ const Index = () => {
       </section>
       
  {/* Section simulation */}
-      <section className="py-20 bg-[#D3E4FD]>
+      <section className="py-20 bg-[#7faff5]>
         <div className="container mx-auto px-4">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -113,6 +113,7 @@ const Index = () => {
           >
             Simulation du niveau de la mer 
           </motion.h2>
+      <p className="text-gray-600"> Les villes de Bangkok, Shangai et Amsterdam seront parmi les plus touchées. </p>
           <script>
             
           </script>
