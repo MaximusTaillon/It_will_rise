@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { ArrowDown, Droplets, ThermometerSun, Wind } from "lucide-react";
@@ -40,7 +39,7 @@ const Index = () => {
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-sky-900 to-sky-700 bg-clip-text text-transparent">
               La montée des eaux,
               <br /></h1>
-             <h2> un problème majeur
+             <h2 className="text-4xl md:text-6xl font-bold text-sky-800"> un problème majeur
             </h2>
             <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
               Discover how sea level rise is reshaping our coastlines and what it means for our future.
