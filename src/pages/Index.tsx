@@ -38,7 +38,7 @@ const Index = () => {
             </span>
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-sky-900 to-sky-700 bg-clip-text text-transparent">
               La montée des eaux,
-              <br /></h1>
+              </h1>
              <h1 className="text-4xl md:text-6xl font-bold text-sky-800"> un problème majeur
             </h1>
             <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
