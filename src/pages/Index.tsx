@@ -73,7 +73,7 @@ const Index = () => {
             >
               <Droplets className="w-12 h-12 text-primary mb-4" />
               <h3 className="text-4xl font-bold mb-2">{counter.toFixed(1)}mm</h3>
-              <p className="text-gray-600">Annual Sea Level Rise</p>
+              <p className="text-gray-600">Augmentation annuelle du niveau de la mer</p>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -100,7 +100,22 @@ const Index = () => {
           </div>
         </div>
       </section>
+      
+ {/* Section simulation */}
+      <section className="py-20 bg-white/50 backdrop-blur-sm">
+        <div className="container mx-auto px-4">
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+            className="text-4xl font-bold text-center mb-16"
+          >
+            Simulation du niveau de la mer 
+          </motion.h2>
+      </section>
 
+        
       {/* Impact Cards */}
       <section className="py-20">
         <div className="container mx-auto px-4">
