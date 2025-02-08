@@ -33,17 +33,16 @@ const Index = () => {
             transition={{ duration: 3 }}
             className="text-center"
           >
-            <span className="inline-block px-3 py-1 mb-6 text-sm font-medium text-primary-foreground bg-primary rounded-full">
-              Global Impact
-            </span>
+           
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-sky-900 to-sky-700 bg-clip-text text-transparent">
               La montée des eaux,
               </h1>
              <h1 className="text-4xl md:text-6xl font-bold text-sky-800"> un problème majeur
             </h1>
-            <br></br>
+            <br> 
+            </br>
             <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-              Discover how sea level rise is reshaping our coastlines and what it means for our future.
+             Voyez l'effet de l'augmentation du niveau de la mer sur les villes de Shangai, Bangkok et Amsterdam
             </p>
           </motion.div>
         </div>
