@@ -38,9 +38,9 @@ const Index = () => {
               Global Impact
             </span>
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-sky-900 to-sky-700 bg-clip-text text-transparent">
-              Rising,
+              La montée des eaux,
               <br />
-              Rising Stakes
+              un problème majeur
             </h1>
             <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
               Discover how sea level rise is reshaping our coastlines and what it means for our future.
