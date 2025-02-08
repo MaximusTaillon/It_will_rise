@@ -30,8 +30,8 @@ const Index = () => {
         <div className="container mx-auto px-4 z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 10, y: 0 }}
-            transition={{ duration: 0.8 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 3 }}
             className="text-center"
           >
             <span className="inline-block px-3 py-1 mb-6 text-sm font-medium text-primary-foreground bg-primary rounded-full">
