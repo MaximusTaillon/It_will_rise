@@ -113,6 +113,7 @@ const Index = () => {
           >
             Simulation du niveau de la mer 
           </motion.h2>
+          </div>
       </section>
 
         
