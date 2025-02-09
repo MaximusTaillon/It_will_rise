@@ -147,6 +147,7 @@ for t in range(276):
                 plan.add_patch(rect)
                 
     plt.axis('off')         
+    plt.title(str(2025+t))
     plt.savefig("EtatBangkok" + str(t+2025) + ".png", format="png")
 
 
