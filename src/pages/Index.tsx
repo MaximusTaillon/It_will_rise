@@ -194,9 +194,8 @@ const Index = () => {
             viewport={{ once: true }}
             className="max-w-2xl mx-auto"
           >
-            <h2 className="text-4xl font-bold mb-6">Take Action Today</h2>
+            <h2 className="text-4xl font-bold mb-6"> Références:</h2>
             <p className="text-lg mb-8">
-             Références:
              https://www.ipcc.ch/report/ar6/wg1/figures/summary-for-policymakers/figure-spm-8/ 
              https://www.spf.org/opri/en/newsletter/34_2.html?full=34_2#:~:text=The%20rise%20in%20the%20sea%20level%20and%20the%20climate%20change,impact%20on%20the%20coastal%20area. 
              https://sealevel.globalchange.gov/sea-level-101/future-sea-level/the-basics/#:~:text=All%20of%20the%20scenarios%20had,today%20and%20in%20the%20future. 
