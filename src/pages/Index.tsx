@@ -41,7 +41,7 @@ const Index = () => {
             </h1>
             <br />
             <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
-              Voyez l'effet de l'augmentation du niveau de la mer sur les villes de Shangai, Bangkok et Amsterdam
+              Constatez l'effet frappant de l'augmentation du niveau de la mer
             </p>
           </motion.div>
         </div>
@@ -112,9 +112,15 @@ const Index = () => {
           >
             Simulation du niveau de la mer 
           </motion.h2>
+          
           <p className="text-gray-600">
             Les villes de Bangkok, Shangai et Amsterdam seront parmi les plus touchées.
           </p>
+          <div class="slidecontainer">
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+          </div>
+         
+
         </div>
       </section>
 
