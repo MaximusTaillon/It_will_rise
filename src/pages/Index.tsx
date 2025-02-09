@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { ArrowDown, Droplets, ThermometerSun, Wind } from "lucide-react";
+import { ArrowDown, Droplets, ThermometerSun, Wind, IceCreamCone } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { Slider } from "@/components/ui/slider";
 
@@ -74,8 +74,7 @@ const Index = () => {
               viewport={{ once: true }}
               className="stat-card"
             >
-                        
-              <Droplets className="w-12 h-12 text-primary mb-4" />
+              <IceCreamCone className="w-12 h-12 text-primary mb-4" />
               <h3 className="text-4xl font-bold mb-2">{counter.toFixed(1)}mm</h3>
               <p className="text-gray-600">Réchauffement du niveau de la mer</p>
             </motion.div>
