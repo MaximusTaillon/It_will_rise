@@ -118,7 +118,7 @@ const Index = () => {
           
           <div className="max-w-xl mx-auto space-y-8">
             <p className="text-white text-center text-lg">
-              Les villes de Bangkok, Shangai et Amsterdam seront parmi les plus touchées.
+              Plusieurs facteurs font en sorte que la ville de Bangkok sera parmi les plus touchées.
             </p>
             
             <div className="space-y-4">
