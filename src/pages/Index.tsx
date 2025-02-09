@@ -122,7 +122,7 @@ const Index = () => {
             
             <div className="space-y-4">
               <div className="flex justify-between text-white">
-                <span>Niveau actuel</span>
+                <span>Année</span>
                 <span>+{seaLevel[0]}m</span>
               </div>
               <Slider
