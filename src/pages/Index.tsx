@@ -110,7 +110,7 @@ const Index = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
-            className="text-4xl font-bold text-center mb-16 text-white"
+            className="text-4xl font-bold text-center mb-8 text-white"
           >
             Simulation du niveau de la mer 
           </motion.h2>
