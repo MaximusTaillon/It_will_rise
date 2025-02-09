@@ -102,7 +102,7 @@ const Index = () => {
       </section>
       
  {/* Section simulation */}
-      <section className="py-20 bg-[#7faff5]>
+      <section className="py-20 bg-[#7FAFF5]>
         <div className="container mx-auto px-4">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
