@@ -130,7 +130,7 @@ const Index = () => {
               <Slider
                 defaultValue={[2025]}
                 min={2025}
-                max={2100}
+                max={2300}
                 step={1}
                 value={annee}
                 onValueChange={setAnnee}
