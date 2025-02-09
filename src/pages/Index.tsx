@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { ArrowDown, Droplets, ThermometerSun, Snowflake } from "lucide-react";
@@ -125,7 +126,13 @@ const Index = () => {
               Plusieurs facteurs font en sorte que la ville de Bangkok sera parmi les plus touchées.
             </p>
 
-            <h2 className="text-4xl font-bold text-center mb-2">IMAGE</h2>
+            <div className="w-full max-w-lg mx-auto rounded-lg overflow-hidden shadow-lg">
+              <img 
+                src="/bangkok-flooding.gif" 
+                alt="Bangkok flooding simulation"
+                className="w-full h-auto"
+              />
+            </div>
             
             <div className="space-y-1 font-bold">
               <div className="flex justify-between text-white text-sm">
@@ -225,3 +232,4 @@ const impacts = [
 ];
 
 export default Index;
+
