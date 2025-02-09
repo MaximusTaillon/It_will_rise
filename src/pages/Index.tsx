@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { ArrowDown, Droplets, ThermometerSun, Snowflake } from "lucide-react";
@@ -27,7 +26,6 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-sky-50 to-sky-100">
-      {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[url('/floods.jpg')] bg-cover bg-center bg-no-repeat before:absolute before:inset-0 before:bg-black/40">
         <div className="container mx-auto px-4 z-10">
           <motion.div
@@ -62,10 +60,9 @@ const Index = () => {
         </motion.div>
       </section>
 
-      {/* Stats Section */}
       <section className="py-20 bg-white/50 backdrop-blur-sm">
         <div className="container mx-auto px-4">
-         <h2 className="text-4xl font-bold text-center mb-2">3 causes principales</h2>
+          <h2 className="text-4xl font-bold text-center mb-2">3 causes principales</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <motion.div
@@ -108,7 +105,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Section simulation */}
       <section className="py-20 bg-[#7FAFF5]">
         <div className="container mx-auto px-4">
           <motion.h2
@@ -153,7 +149,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Impact Cards */}
       <section className="py-20">
         <div className="container mx-auto px-4">
           <motion.h2
@@ -184,7 +179,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Call to Action */}
       <section className="py-20 bg-primary text-white">
         <div className="container mx-auto px-4 text-center">
           <motion.div
@@ -194,8 +188,8 @@ const Index = () => {
             viewport={{ once: true }}
             className="max-w-2xl mx-auto"
           >
-            <h2 className="text-4xl font-bold mb-6"> Références:</h2>
-            <p className="text-lg mb-8">
+            <h2 className="text-4xl font-bold mb-6">Références:</h2>
+            <p className="text-sm mb-8 text-white/80">
              https://www.ipcc.ch/report/ar6/wg1/figures/summary-for-policymakers/figure-spm-8/ 
              https://www.spf.org/opri/en/newsletter/34_2.html?full=34_2#:~:text=The%20rise%20in%20the%20sea%20level%20and%20the%20climate%20change,impact%20on%20the%20coastal%20area. 
              https://sealevel.globalchange.gov/sea-level-101/future-sea-level/the-basics/#:~:text=All%20of%20the%20scenarios%20had,today%20and%20in%20the%20future. 
@@ -223,8 +217,6 @@ const impacts = [
     description:
       "Les ouragans seront plus forts lorsqu’ils toucheront terre.",
   },
-
 ];
 
 export default Index;
-
