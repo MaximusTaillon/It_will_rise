@@ -161,7 +161,7 @@ const Index = () => {
           >
             Chaque millimètre est important
           </motion.h2>
-          <p className="text-gray-700 text-center text-lg mt-8 max-w-3xl mx-auto">
+          <p className="text-gray-700 text-center text-lg">
             Une augmentation de quelques millimètres ne semble pas très grave, mais les effet à sont bien réels.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
