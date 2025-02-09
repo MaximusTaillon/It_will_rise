@@ -33,16 +33,15 @@ const Index = () => {
             transition={{ duration: 3 }}
             className="text-center"
           >
-           
             <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white">
               La montée des eaux,
-              </h1>
-             <h1 className="text-4xl md:text-6xl font-bold text-white"> un problème majeur
             </h1>
-            <br> 
-            </br>
+            <h1 className="text-4xl md:text-6xl font-bold text-white">
+              un problème majeur
+            </h1>
+            <br />
             <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
-             Voyez l'effet de l'augmentation du niveau de la mer sur les villes de Shangai, Bangkok et Amsterdam
+              Voyez l'effet de l'augmentation du niveau de la mer sur les villes de Shangai, Bangkok et Amsterdam
             </p>
           </motion.div>
         </div>
@@ -100,9 +99,9 @@ const Index = () => {
           </div>
         </div>
       </section>
-      
- {/* Section simulation */}
-      <section className="py-20 bg-[#7FAFF5]>
+
+      {/* Section simulation */}
+      <section className="py-20 bg-[#7FAFF5]">
         <div className="container mx-auto px-4">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -113,14 +112,12 @@ const Index = () => {
           >
             Simulation du niveau de la mer 
           </motion.h2>
-           <p className="text-gray-600"> Les villes de Bangkok, Shangai et Amsterdam seront parmi les plus touchées. </p>
-          <script>
-            
-          </script>
+          <p className="text-gray-600">
+            Les villes de Bangkok, Shangai et Amsterdam seront parmi les plus touchées.
+          </p>
         </div>
       </section>
 
-        
       {/* Impact Cards */}
       <section className="py-20">
         <div className="container mx-auto px-4">
