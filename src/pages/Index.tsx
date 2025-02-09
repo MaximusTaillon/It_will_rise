@@ -203,14 +203,14 @@ const Index = () => {
 
 const impacts = [
   {
-    title: "Coastal Communities",
+    title: "Inondations",
     description:
-      "Rising seas threaten to displace millions of people living in coastal areas, affecting homes, infrastructure, and livelihoods.",
+      "Une augmentation de quelques millimètres ne semble pas très grave, mais les effet à sont bien réels.",
   },
   {
-    title: "Ecosystems",
+    title: "Catastrophes naturelles",
     description:
-      "Coastal ecosystems face unprecedented challenges as rising waters alter habitats and threaten biodiversity.",
+      "Les ouragans seront plus forts lorsqu’ils toucheront terre.",
   },
   {
     title: "Infrastructure",
