@@ -163,7 +163,7 @@ const Index = () => {
             viewport={{ once: true }}
             className="text-4xl font-bold text-center mb-16"
           >
-            Understanding the Impact
+            Chaque millimètre est important
           </motion.h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {impacts.map((impact, index) => (
@@ -219,16 +219,7 @@ const impacts = [
     description:
       "Les ouragans seront plus forts lorsqu’ils toucheront terre.",
   },
-  {
-    title: "Infrastructure",
-    description:
-      "Critical infrastructure like ports, roads, and power plants face increased risks from flooding and storm surges.",
-  },
-  {
-    title: "Economy",
-    description:
-      "The global economy faces significant challenges as coastal cities adapt to rising seas and extreme weather events.",
-  },
+
 ];
 
 export default Index;
