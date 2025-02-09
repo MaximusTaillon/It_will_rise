@@ -133,7 +133,7 @@ const Index = () => {
                 max={2100}
                 step={1}
                 value={annee}
-                onValueChange={setSeaLevel}
+                onValueChange={setAnnee}
                 className="py-4"
               />
             </div>
