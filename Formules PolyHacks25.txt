@@ -1,0 +1,28 @@
+1994	2100 from 1 meter
+3.8M	7.8M
+207m	456m
+
+610000km2	860000km2
+
+2100 - 1994 = 106 ans
+niveau de l'eau selon le temps (mm) global: à partir de 1993
+y = 0.015x^2 + 3.37x		(manque de données)		estime  532mm
+y = x^(4/3)
+
+IPCC.CH estime une augmentation de 625mm de 1993 à 2100 scénario moyen
+
+
+Augmentation de 1m dans la région de l'Asie-Pacifique
+niveau de l'eau selon le temps (mm) Bangkok: 
+y = 0.02x^2 + 7.31x 
+
+population affecté (millions d'habitant) Bangkok:
+y = 2.3491x + 207
+
+
+Région Asie-Pacifique augmentation de l'eau en 2100 à partir de maintenant 2025
+y = 0.02x^2 + 16x		(1.31m)
+
+
+
+
