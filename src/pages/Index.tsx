@@ -101,9 +101,9 @@ const Index = () => {
               <p className="text-gray-600">Fonte des glaciers</p>
             </motion.div>
           </div>
-        <p className="text-white text-center text-lg">
-          Cela entraîne une augmentation moyenne du niveau de la mer de 3,37 mm par année et ce rythme va accélérer dans les prochaines années
-        </p>
+         <p className="text-white text-center text-lg">
+           Cela entraîne une augmentation moyenne du niveau de la mer de 3,37 mm par année et ce rythme va accélérer dans les prochaines années
+         </p>
         </div>
       </section>
 
