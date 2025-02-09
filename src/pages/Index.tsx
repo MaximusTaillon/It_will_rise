@@ -8,7 +8,7 @@ import { Slider } from "@/components/ui/slider";
 const Index = () => {
   const [scrolled, setScrolled] = useState(false);
   const [counter, setCounter] = useState(0);
-  const [seaLevel, setSeaLevel] = useState([0]);
+  const [annee, setSeaLevel] = useState([0]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -126,13 +126,13 @@ const Index = () => {
             <div className="space-y-4">
               <div className="flex justify-between text-white">
                 <span>Année</span>
-                <span>{seaLevel[0]}</span>
+                <span>{annee[0]}</span>
               </div>
               <Slider
                 defaultValue={2025}
                 max={2100}
                 step={1}
-                value={seaLevel}
+                value={annee}
                 onValueChange={setSeaLevel}
                 className="py-4"
               />
