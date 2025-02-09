@@ -19,7 +19,7 @@ const Index = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCounter((prev) => (prev < 3.3 ? prev + 0.1 : prev));
+      setCounter((prev) => (prev < 15 ? prev + 0.5 : prev));
     }, 100);
     return () => clearInterval(interval);
   }, []);
@@ -75,7 +75,7 @@ const Index = () => {
               className="stat-card"
             >
               <Droplets className="w-12 h-12 text-primary mb-4" />
-              <h3 className="text-4xl font-bold mb-2">{counter.toFixed(1)}mm</h3>
+              <h3 className="text-4xl font-bold mb-2">{counter.toFixed(1)}cm</h3>
               <p className="text-gray-600">Réchauffement du niveau de la mer</p>
             </motion.div>
             <motion.div
