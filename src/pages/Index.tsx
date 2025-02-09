@@ -64,6 +64,7 @@ const Index = () => {
       {/* Stats Section */}
       <section className="py-20 bg-white/50 backdrop-blur-sm">
         <div className="container mx-auto px-4">
+          3 causes principales
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
