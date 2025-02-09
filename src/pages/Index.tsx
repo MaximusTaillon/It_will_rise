@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { ArrowDown, Droplets, ThermometerSun, Wind } from "lucide-react";
@@ -123,9 +122,9 @@ const Index = () => {
 
             <h2 className="text-4xl font-bold text-center mb-2">IMAGE</h2>
             
-            <div className="space-y-4">
-              <div className="flex justify-between text-white">
-                <span>Année</span>
+            <div className="space-y-2">
+              <div className="flex justify-between text-white text-sm mb-1">
+                <span>2025</span>
                 <span>{annee[0]}</span>
                 <span>2100</span>
               </div>
