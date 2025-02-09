@@ -86,7 +86,7 @@ const Index = () => {
             >
               <ThermometerSun className="w-12 h-12 text-primary mb-4" />
               <h3 className="text-4xl font-bold mb-2">1.5°C</h3>
-              <p className="text-gray-600">Réchauffement de la terre depuis </p>
+              <p className="text-gray-600">Réchauffement de la terre depuis 1850 </p>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -134,12 +134,12 @@ const Index = () => {
             <div className="space-y-1 font-bold">
               <div className="flex justify-between text-white text-sm">
                 <span>Année</span>
-                <span>annee[0]</span>
+                <span>{annee[0]}</span>
               </div>
               <Slider
                 defaultValue={[2025]}
                 min={2025}
-                max={2100}
+                max={2300}
                 step={1}
                 value={annee}
                 onValueChange={setAnnee}
