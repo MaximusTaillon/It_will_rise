@@ -8,7 +8,7 @@ import { Slider } from "@/components/ui/slider";
 const Index = () => {
   const [scrolled, setScrolled] = useState(false);
   const [counter, setCounter] = useState(0);
-  const [annee, setSeaLevel] = useState([0]);
+  const [annee, setAnnee] = useState([2025]);
 
   useEffect(() => {
     const handleScroll = () => {
