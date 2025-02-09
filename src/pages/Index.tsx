@@ -115,14 +115,14 @@ const Index = () => {
             Simulation du niveau de la mer 
           </motion.h2>
           
-          <div className="max-w-xl mx-auto space-y-8">
+          <div className="max-w-xl mx-auto space-y-4">
             <p className="text-white text-center text-lg">
               Plusieurs facteurs font en sorte que la ville de Bangkok sera parmi les plus touchées.
             </p>
 
             <h2 className="text-4xl font-bold text-center mb-2">IMAGE</h2>
             
-            <div className="space-y-1">
+            <div className="space-y-1 font-bold">
               <div className="flex justify-between text-white text-sm">
                 <span>Année</span>
                 <span>2100</span>
