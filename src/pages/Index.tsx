@@ -120,6 +120,8 @@ const Index = () => {
             <p className="text-white text-center text-lg">
               Plusieurs facteurs font en sorte que la ville de Bangkok sera parmi les plus touchées.
             </p>
+
+            <h3 className="text-4xl font-bold mb-2">IMAGE</h3>
             
             <div className="space-y-4">
               <div className="flex justify-between text-white">
