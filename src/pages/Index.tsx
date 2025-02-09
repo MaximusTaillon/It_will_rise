@@ -77,7 +77,7 @@ const Index = () => {
                         
               <Droplets className="w-12 h-12 text-primary mb-4" />
               <h3 className="text-4xl font-bold mb-2">{counter.toFixed(1)}mm</h3>
-              <p className="text-gray-600">Augmentation annuelle du niveau de la mer</p>
+              <p className="text-gray-600">Réchauffement du niveau de la mer</p>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -88,7 +88,7 @@ const Index = () => {
             >
               <ThermometerSun className="w-12 h-12 text-primary mb-4" />
               <h3 className="text-4xl font-bold mb-2">1.5°C</h3>
-              <p className="text-gray-600">Global Temperature Rise</p>
+              <p className="text-gray-600">Réchauffement de la terre</p>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -99,7 +99,7 @@ const Index = () => {
             >
               <Wind className="w-12 h-12 text-primary mb-4" />
               <h3 className="text-4xl font-bold mb-2">680M</h3>
-              <p className="text-gray-600">People at Coastal Risk</p>
+              <p className="text-gray-600">Fonte des glaciers</p>
             </motion.div>
           </div>
         </div>
