@@ -113,7 +113,7 @@ const Index = () => {
           >
             Simulation du niveau de la mer 
           </motion.h2>
-          <p className="text-gray-600"> Les villes de Bangkok, Shangai et Amsterdam seront parmi les plus touchées. </p>
+           <p className="text-gray-600"> Les villes de Bangkok, Shangai et Amsterdam seront parmi les plus touchées. </p>
           <script>
             
           </script>
