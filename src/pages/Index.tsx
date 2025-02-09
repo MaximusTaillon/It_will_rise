@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { ArrowDown, Droplets, ThermometerSun, Snowflake } from "lucide-react";
@@ -180,13 +181,13 @@ const Index = () => {
       </section>
 
       <section className="py-20 bg-primary text-white">
-        <div className="container mx-auto px-4 text-center">
+        <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
-            className="max-w-2xl mx-auto"
+            className="max-w-2xl mx-auto text-left"
           >
             <h2 className="text-4xl font-bold mb-6">Références:</h2>
             <p className="text-sm mb-8 text-white/80">
@@ -215,7 +216,7 @@ const impacts = [
   {
     title: "Catastrophes naturelles",
     description:
-      "Les ouragans seront plus forts lorsqu’ils toucheront terre.",
+      "Les ouragans seront plus forts lorsqu'ils toucheront terre.",
   },
 ];
 
