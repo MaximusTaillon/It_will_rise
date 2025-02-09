@@ -75,8 +75,8 @@ const Index = () => {
               className="stat-card"
             >
               <Droplets className="w-12 h-12 text-primary mb-4" />
-              <h3 className="text-4xl font-bold mb-2">{counter.toFixed(1)}cm</h3>
-              <p className="text-gray-600">Réchauffement du niveau de la mer</p>
+              <h3 className="text-4xl font-bold mb-2">{counter.toFixed(1)} cm</h3>
+              <p className="text-gray-600">Une augmentation de 15 cm du niveau de la mer causera environ 20% plus d'inondations </p>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -87,7 +87,7 @@ const Index = () => {
             >
               <ThermometerSun className="w-12 h-12 text-primary mb-4" />
               <h3 className="text-4xl font-bold mb-2">1.5°C</h3>
-              <p className="text-gray-600">Réchauffement de la terre</p>
+              <p className="text-gray-600">Réchauffement de la terre depuis </p>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
