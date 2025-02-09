@@ -7,7 +7,7 @@ import { Slider } from "@/components/ui/slider";
 const Index = () => {
   const [scrolled, setScrolled] = useState(false);
   const [counter, setCounter] = useState(0);
-  const [year, setYear] = useState([0]);
+  const [seaLevel, setSeaLevel] = useState([0]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -117,20 +117,20 @@ const Index = () => {
           
           <div className="max-w-xl mx-auto space-y-8">
             <p className="text-white text-center text-lg">
-              Plusieurs facteurs font en sorte que la ville de Bangkok sera parmi les plus touchées.
+              Les villes de Bangkok, Shangai et Amsterdam seront parmi les plus touchées.
             </p>
             
             <div className="space-y-4">
               <div className="flex justify-between text-white">
-                <span>Année</span>
+                <span>Niveau actuel</span>
                 <span>+{seaLevel[0]}m</span>
               </div>
               <Slider
-                defaultValue={[2025]}
-                max={2100}
-                step={1}
-                value={year}
-                onValueChange={setYear}
+                defaultValue={[0]}
+                max={10}
+                step={0.1}
+                value={seaLevel}
+                onValueChange={setSeaLevel}
                 className="py-4"
               />
             </div>
