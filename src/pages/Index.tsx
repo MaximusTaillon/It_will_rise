@@ -97,8 +97,8 @@ const Index = () => {
               className="stat-card"
             >
               <Snowflake className="w-12 h-12 text-primary mb-4" />
-              <h3 className="text-4xl font-bold mb-2">680M</h3>
-              <p className="text-gray-600">Fonte des glaciers</p>
+              <h3 className="text-4xl font-bold mb-2">0</h3>
+              <p className="text-gray-600">Si on ne change rien, il ne restera pratiquement plus de glaciers en 2075</p>
             </motion.div>
           </div>
           <p className="text-gray-700 text-center text-lg mt-8 max-w-3xl mx-auto">
