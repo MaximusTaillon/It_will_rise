@@ -132,7 +132,7 @@ const Index = () => {
                 defaultValue={2025}
                 max={2100}
                 step={1}
-                value={100}
+                value={annee}
                 onValueChange={setAnnee}
                 className="py-4"
               />
