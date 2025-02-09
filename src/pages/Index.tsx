@@ -127,7 +127,7 @@ const Index = () => {
               </div>
               <Slider
                 defaultValue={[0]}
-                max={10}
+                max={15}
                 step={0.1}
                 value={seaLevel}
                 onValueChange={setSeaLevel}
