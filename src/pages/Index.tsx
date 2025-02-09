@@ -196,11 +196,16 @@ const Index = () => {
           >
             <h2 className="text-4xl font-bold mb-6">Take Action Today</h2>
             <p className="text-lg mb-8">
-              Learn more about how you can help protect our coastlines and communities.
+             Références:
+             https://www.ipcc.ch/report/ar6/wg1/figures/summary-for-policymakers/figure-spm-8/ 
+             https://www.spf.org/opri/en/newsletter/34_2.html?full=34_2#:~:text=The%20rise%20in%20the%20sea%20level%20and%20the%20climate%20change,impact%20on%20the%20coastal%20area. 
+             https://sealevel.globalchange.gov/sea-level-101/future-sea-level/the-basics/#:~:text=All%20of%20the%20scenarios%20had,today%20and%20in%20the%20future. 
+             https://climatedata.ca/resource/understanding-shared-socio-economic-pathways-ssps/ 
+             https://psl.noaa.gov/data/gridded/data.cobe2.html 
+             https://www.kaggle.com/datasets/kkhandekar/global-sea-level-1993-2021/data 
+             https://lovable.dev/projects/7ea75af0-27d4-4242-9818-16a9dd516cd3 
+             https://ici.radio-canada.ca/nouvelle/1868450/changement-climatique-canada-nord-tundra-ecosysteme
             </p>
-            <button className="px-8 py-3 bg-white text-primary rounded-lg font-semibold hover:bg-opacity-90 transition-colors duration-300">
-              Learn More
-            </button>
           </motion.div>
         </div>
       </section>
