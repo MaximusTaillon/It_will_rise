@@ -124,14 +124,14 @@ const Index = () => {
             <div className="space-y-4">
               <div className="flex justify-between text-white">
                 <span>Année</span>
-                <span>{seaLevel[0]+2025}</span>
+                <span>{seaLevel[0]}</span>
               </div>
               <Slider
                 defaultValue={2025}
                 max={2100}
                 step={1}
-                value={seaLevel+2025}
-                onValueChange={setSeaLevel+2025}
+                value={seaLevel}
+                onValueChange={setSeaLevel}
                 className="py-4"
               />
             </div>
