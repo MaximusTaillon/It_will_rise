@@ -73,7 +73,7 @@ const Index = () => {
               viewport={{ once: true }}
               className="stat-card"
             >
-              <h2 className="text-4xl font-bold text-center mb-2">3 causes principales</h2>
+           <h2 className="text-4xl font-bold text-center mb-2">3 causes principales</h2>
               
               <Droplets className="w-12 h-12 text-primary mb-4" />
               <h3 className="text-4xl font-bold mb-2">{counter.toFixed(1)}mm</h3>
