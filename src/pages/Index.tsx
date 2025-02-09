@@ -125,7 +125,7 @@ const Index = () => {
             
             <div className="space-y-4">
               <div className="flex justify-between text-white">
-                <span>2025</span>
+                <span>Année</span>
                 <span>{annee[0]}</span>
                 <span>2100</span>
               </div>
