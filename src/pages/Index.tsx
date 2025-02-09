@@ -122,7 +122,7 @@ const Index = () => {
 
             <h2 className="text-4xl font-bold text-center mb-2">IMAGE</h2>
             
-            <div className="space-y-2">
+            <div className="space-y-1">
               <div className="flex justify-between text-white text-sm">
                 <span>Année</span>
                 <span>2100</span>
